@@ -9,18 +9,18 @@ function renderTextarea(oBody) {
 function keyboardRenderer(oBody, sLang, sSize) {
   oBody.insertAdjacentHTML('beforeend', `<div id ='${rootKeyboardId}'>
     <div class = "keyboardRow"><div class = "letter button" id="192">${keyboardMapping[sLang][192][sSize]}</div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][49][sSize]}</span><sup>!</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][50][sSize]}</span><sup>@</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][51][sSize]}</span><sup>#</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][52][sSize]}</span><sup>$</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][53][sSize]}</span><sup>%</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][54][sSize]}</span><sup>^</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][55][sSize]}</span><sup>?</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][56][sSize]}</span><sup>*</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][57][sSize]}</span><sup>(</sup></div>
-    <div class = "letter button"><span>${keyboardMapping[sLang][48][sSize]}</span><sup>)</sup></div>
-    <div class = "letter button"><span>-</span><sup>_</sup></div>
-    <div class = "letter button"><span>=</span><sup>+</sup></div>
+    <div class = "letter button"  id = "49">${keyboardMapping[sLang][49][sSize]}</div>
+    <div class = "letter button" id = "50">${keyboardMapping[sLang][50][sSize]}</div>
+    <div class = "letter button"  id = "51">${keyboardMapping[sLang][51][sSize]}</div>
+    <div class = "letter button"  id = "52">${keyboardMapping[sLang][52][sSize]}</div>
+    <div class = "letter button"  id = "53">${keyboardMapping[sLang][53][sSize]}</div>
+    <div class = "letter button"  id = "54">${keyboardMapping[sLang][54][sSize]}</div>
+    <div class = "letter button"  id = "55">${keyboardMapping[sLang][55][sSize]}</div>
+    <div class = "letter button" id = "56">${keyboardMapping[sLang][56][sSize]}</div>
+    <div class = "letter button" id = "57">${keyboardMapping[sLang][57][sSize]}</div>
+    <div class = "letter button"  id = "48">${keyboardMapping[sLang][48][sSize]}</div>
+    <div class = "letter button" id = "189">${keyboardMapping[sLang][189][sSize]}</div>
+    <div class = "letter button" id = "187">${keyboardMapping[sLang][187][sSize]}</div>
     <div class = "button backspace" id = "8">${keyboardMapping.en[8][sSize]}</div>
     </div>
     <div class = "keyboardRow"><div class = "letter button" id = "9">${keyboardMapping.en[9][sSize]}</div>
@@ -41,7 +41,7 @@ function keyboardRenderer(oBody, sLang, sSize) {
     <div class = "letter button" id = "222">${keyboardMapping[sLang][222][sSize]}</div><div class = "button enter" id = "13">${keyboardMapping.en[13][sSize]}</div>
     </div>
     <div class = "keyboardRow"><div class = "button shift1" id = "16">${keyboardMapping.en[16][sSize]}</div>
-    <div class = "letter button" id = "220">${keyboardMapping[sLang][220][sSize]}</div><div class = "letter button" id = "90">${keyboardMapping[sLang][90][sSize]}</div>
+    <div class = "letter button" id = "90">${keyboardMapping[sLang][90][sSize]}</div>
     <div class = "letter button" id = "88">${keyboardMapping[sLang][88][sSize]}</div><div class = "letter button" id = "67">${keyboardMapping[sLang][67][sSize]}</div>
     <div class = "letter button" id = "86">${keyboardMapping[sLang][86][sSize]}</div><div class = "letter button" id = "66">${keyboardMapping[sLang][66][sSize]}</div>
     <div class = "letter button" id = "78">${keyboardMapping[sLang][78][sSize]}</div><div class = "letter button" id = "77">${keyboardMapping[sLang][77][sSize]}</div>
